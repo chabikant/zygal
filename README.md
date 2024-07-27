@@ -12,21 +12,19 @@ Persistent Storage: Stores submission data in a data.json file.
 
 Dynamic Colors: Each pie chart segment is colored with a randomly generated color.
 
-*Clone the Project*
+*Clone the Project:*
 
 git clone <repository-url>
 
 cd zygal
 
-*Install Dependencies*
-
+*Install Dependencies:*
 npm install
 
-*Start the Server*
-
+*Start the Server:*
 node index.js
 
-*API Endpoints*
+*API Endpoints:*
 
 GET /: Renders the main page with the pie chart.
 
