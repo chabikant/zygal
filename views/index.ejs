@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zygal Assingment</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="/chart.js" defer></script>
+</head>
+<body>
+    <h1>Enter a Number</h1>
+    <div class="input-field" >
+        <form id="numberForm" action="/submit" method="post">
+            <input type="number" id="numberInput" name="number" min="1" max="100" placeholder="Enter number to add file" required>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+        <br>
+        <p style="font-weight: bold;">Note : Number should be betweem 1-100(including 1 and 100)</p>
+    </div>
+    <br>
+    <div  class="chart-container" style="position: relative; height:50vh; width:90vw">
+        <canvas id="myChart"></canvas>
+    </div>
+</body>
+</html>
