@@ -6,7 +6,6 @@ const app = express();
 const PORT = 3000;
 
 // Useful Middlewares
-
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
